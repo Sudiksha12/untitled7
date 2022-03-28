@@ -1,17 +1,21 @@
-// create an array of 5 elements and print the values.
-
 import java.util.Scanner;
 
-public class EFArrayDemo {
-    public static void main(String[] args) {
-        int arr[]; //declaration
-        arr = new int[5]; //creation
-        Scanner s = new Scanner(System.in);
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = s.nextInt();
-        }
-        for (int rec : arr) {
-            System.out.println(rec);
-        }
-    }
+public class EFArrayDemo{
+       int arr[];
+      public EFArrayDemo(){
+          arr = new int[7];
+          Scanner sc= new Scanner(System.in);
+          for (int i = 0; i < arr.length; i++) {
+              arr[i]= sc.nextInt();
+          }
+      }
+      public void product (){
+          for (int i = 0; i < 7 ; i++) {
+              for (int j = i+1; j < 7 ; j++) {
+
+              }
+
+          }
+      }
+
 }
